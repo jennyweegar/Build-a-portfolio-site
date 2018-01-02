@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio - Full Stack NanoDegree Project</title>
+
+        <link rel="shortcut icon" type="imagex-icon" href="./images/crow.ico" />
+        <!-- css links -->
+        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+        <link rel="stylesheet" href="./css/global.min.css">
+        <!-- js scripts -->
+        <script>
+            // Picture Element - my portfolio
+            document.createElement( "picture" );
+        </script>
+        <script src="./js/picturefill.min.js" async></script>
+    </head>
+    <body>
+        <div class="container">
+            <!-- header -->
+            <header class="row" id="header">
+                <div class="col-sm-3 col-xs-4" id="logo">
+                    <picture>
+                        <source srcset="./images/images_src/github_logo_small-sm.png" media="(min-width: 768px)">
+                        <source srcset="./images/images_src/github_logo_small-xs.png" media="(max-width: 767px)">
+                        <img src="./images/images_src/github_logo_small.png"
+                             alt="Github Logo">
+                    </picture>
+                </div>
+                <div class="col-sm-9 col-xs-8 text-right text-uppercase" id="site-title">
+                    <h1 id="main-title">Jenni Weegar</h1>
+                    <h3 id="sub-title">Full Stack Developer</h3>
+                </div>
+             </header>
+             <!-- Cover -->
+             <section class="row" id="cover">
+                 <div class="col-xs-12">
+                     <picture>
+                         <source srcset="./images/images_src/logo-lg.png" media="(min-width: 992px)">
+                         <source srcset="./images/images_src/logo-md.png" media="(min-width: 768px)">
+                         <source srcset="./images/images_src/logo-sm.png" media="(min-width: 351px)">
+                         <source srcset="./images/images_src/logo-xs.png" media="(max-width: 350px)">
+                         <img src="./images/images_src/logo-md.png"
+                              alt="Site Cover: picture of full stack logo">
+                     </picture>
+                 </div>
+            </section>
+            <!-- Articles -->
+            <section class="row" id="articles">
+                <div class="col-xs-12">
+                    <h2 class="section-title text-capitalize">Featured Work</h2>
+                </div>
+                <!-- Article -->
+                <article class="article text-center col-sm-4">
+                    <picture>
+                        <source srcset="./images/images_src/GitHub-sm.png" media="(min-width: 351px)">
+                        <source srcset="./images/images_src/GitHub-xs.png" media="(max-width: 350px)">
+                        <img src="./images/images_src/GitHub-sm.png"
+                             alt="github logo">
+                    </picture>
+                    <h2 class="article-title text-uppercase">Github</h2>
+                    <p class="article-description">
+                        <a href="http://www.github.com/" target="_blank">http://www.github.com/</a>
+                    </p>
+                </article>
+                <!-- Article -->
+                <article class="article text-center col-sm-4">
+                    <picture>
+                        <source srcset="./images/images_src/stack-overflow-logo-small-sm.png" media="(min-width: 351px)">
+                        <source srcset="./images/images_src/stack-overflow-logo-small-xs.png" media="(max-width: 350px)">
+                        <img src="./images/images_src/stack-overflow-logo-small-sm.png"
+                             alt="stackoverflow logo">
+                    </picture>
+                    <h2 class="article-title text-uppercase">Stack Overflow</h2>
+                    <p class="article-description">
+                        <a href="http://stackoverflow.com/" target="_blank">http://stackoverflow.com/</a>
+                    </p>
+                </article>
+                <!-- Article -->
+                <article class="article text-center col-sm-4">
+                    <picture>
+                        <source srcset="./images/images_src/ulta-squarelogo-sm.png" media="(min-width: 351px)">
+                        <source srcset="./images/images_src/ulta-squarelogo-xs.png" media="(max-width: 350px)">
+                        <img src="./images/images_src/ulta-squarelog-sm.png"
+                             alt="ulta logo">
+                    </picture>
+                    <h2 class="article-title text-uppercase">Ulta</h2>
+                    <p class="article-description">
+                        <a href="http://www.ulta.com/" target="_blank">http://ulta.com/</a>
+                    </p>
+                </article>
+            </section>
+        </div>
+    </body>
+</html>
